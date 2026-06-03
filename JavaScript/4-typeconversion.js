@@ -52,3 +52,19 @@ console.log(h2)
 console.log(i2)
 console.log(j2)
 
+console.log("")
+let n= 11
+n++
+console.log(n)
+
+console.log("")
+let gamecounter= 1
+let updated = gamecounter++
+console.log(gamecounter)
+console.log(updated);
+
+console.log("")
+let gamecounter1= 1
+let updated1 = ++gamecounter1
+console.log(gamecounter1)
+console.log(updated1);
