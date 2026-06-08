@@ -40,6 +40,7 @@ let a2= 123456789n
 let b2 = null
 let c2;
 let d2= 123;
+let z2= true
 let e2= "aksh"
 let f2= String(a2)
 let g2= String(b2)
@@ -51,6 +52,7 @@ console.log(g2)
 console.log(h2)
 console.log(i2)
 console.log(j2)
+console.log(z2)
 
 console.log("")
 let n= 11

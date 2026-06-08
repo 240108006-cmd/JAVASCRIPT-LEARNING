@@ -38,7 +38,7 @@ let studentAge = 18
 console.log("Hello My Name is "+ studentName +". My Roll No is "+studentroll+ ". My Age is "+ studentAge)
 
 // conactenation method 2
-let studentName1 = "Aksh  Gupta"
+let studentName1 = "Aksh Gupta"
 let studentroll1 = 240108006
 let studentAge1 = 18 
 console.log(`Hello My Name Is ${studentName1} . My Roll No Is ${studentroll1} And My Age Is ${studentAge1}`)

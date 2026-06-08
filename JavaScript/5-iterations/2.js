@@ -6,6 +6,7 @@ while(index<=arr.length-1){
     index++
 }
 console.log("")
+
 // do while loop
 let i=1
 do{
@@ -13,3 +14,12 @@ do{
     i++
 }
 while(i<=6)
+console.log("")
+
+
+let i1=5
+do{
+    console.log(i1)
+    i++
+}
+while(i1<=4)
