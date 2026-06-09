@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul class ="languages">
+            <li>JAVASCRIPT</li>
+            <li> HTML</li>
+            <li> CSS </li>
+        </ul>
+    </div>
+</body>
+<script>
+    // CREATING THE ELEMENT AND APPENDING IT 
+    function adding(language)
+    {
+        let newlang = document.createElement("li")
+        newlang.appendChild(document.createTextNode(language))
+        document.querySelector("ul").appendChild(newlang)
+    }
+    adding("C++")
+    adding("ReactJS")
+
+    // EDITTING THE GIVEN NODE (use innerhtml to change the content )
+    let element = document.querySelectorAll("li")
+    let elementToEdit = element[1]
+    elementToEdit.innerHTML="bootstrap"
+    console.log(elementToEdit)
+
+    // EDITTING THE GIVEN NODE (MAKE A NEW ELEMENT AND REPLACE IT WITH OLDERONE)
+    let Element = document.querySelectorAll("li")
+    let Elementtoedit = Element[2]
+    let newelement = document.createElement("li")
+    newelement.appendChild(document.createTextNode("Tailwind"))
+    Elementtoedit.replaceWith(newelement)
+
+    //removing the element 
+    let elementt = document.querySelectorAll("li")
+    let remove = elementt[3]
+    remove.remove()
+
+
+
+</script>
+</html>

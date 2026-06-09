@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // creating new element
+    let newelement = document.createElement("div")
+    newelement.innerText ="This is Aksh Gupta "
+
+
+    newelement.style.color = 'black'
+    newelement.style.fontSize = "1.25rem"
+    newelement.style.backgroundColor ="pink"
+    newelement.style.textDecoration ="underline"
+    newelement.style.height= "310px"
+    newelement.style.width= "340px"
+    newelement.style.paddingLeft= "90px"
+    newelement.style.paddingTop="160px"
+    newelement.style.border ="2px solid black"
+    newelement.style.borderRadius = "15%"
+
+
+    newelement.setAttribute("id",Math.random())
+    newelement.setAttribute("class","div1")
+
+    
+    document.body.appendChild(newelement)
+    console.log(newelement)
+
+    // second method to create the element is 
+    // 1) create element 
+    // 2) instead of using textcontent/ inner html/ inner text 
+    // use a textnode and append it into thre created element 
+
+    let element = document.createElement("h1")
+    element.appendChild(document.createTextNode("OPTIMISED APPROACH TO CREATE ELEMENT "))
+    document.body.appendChild(element)
+
+</script>
+</html>

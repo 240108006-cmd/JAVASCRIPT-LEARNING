@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class ="parent"> 
+        <div class="days"> MONDAY </div>
+        <div class="days"> TUESDAY</div>
+        <div class="days"> WEDNESDAY</div>
+        <div class="days"> THURSDAY</div>
+        <div class="days"> FRIDAY </div>
+    </div>
+</body>
+<script>
+    // traversing (.children)
+    let parent = document.querySelector(".parent")
+    let childs = parent.children
+    for (let i = 0; i < childs.length; i++) {
+        const element = childs[i];
+        console.log(element.innerText)
+    }
+    console.log('')
+
+    // .firstElementChild,.lastElementChild
+    let firstchild= parent.firstElementChild
+    let lastchild = parent.lastElementChild
+    console.log(firstchild.innerText)
+    console.log(lastchild.innerText)
+    console.log("")
+
+    // accessing parent from child(.parentElement)
+    let child = document.querySelector(".days")
+    let parent1 = child.parentElement
+    console.log(parent1)
+
+    // printing nextElementSibiling
+    console.log("")
+    console.log(child.nextElementSibling)
+
+    
+
+</script>
+</html>
