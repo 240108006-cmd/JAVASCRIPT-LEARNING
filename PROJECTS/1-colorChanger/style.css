@@ -1,0 +1,23 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    display: inline-block;
+
+}
+#grey{
+    background-color: grey;
+    margin-left: 550px;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+h2{
+    text-align: center;
+}
