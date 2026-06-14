@@ -8,4 +8,4 @@ let result1= arr.map((val)=>(val+5))
                 .map((val)=>(val+10))
                 .filter((val)=>(val>=35))
 console.log(result1)
-
+//hi
