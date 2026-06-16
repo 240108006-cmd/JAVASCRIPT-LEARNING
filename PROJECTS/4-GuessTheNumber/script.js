@@ -25,7 +25,7 @@ function validatenumber_push(numbertovalidate){
     else if(numbertovalidate==""){
         alert("please enter a valid number")
     }
-    else if(numbertovalidate<1 ||(numbertovalidate>100)){
+    else if((numbertovalidate<1) ||(numbertovalidate>100)){
         alert("please enter a valid number")
     }
     else{

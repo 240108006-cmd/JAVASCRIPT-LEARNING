@@ -63,5 +63,5 @@ for (const key in obj1) {  // we cannotget email by iteration (not enumerable )
         console.log(`the key is ${key} have value as ${element}`)
     }
 }
-delete obj1.email
+delete obj1.email // not configurable also(cannot be deleted)
 console.log(obj1)

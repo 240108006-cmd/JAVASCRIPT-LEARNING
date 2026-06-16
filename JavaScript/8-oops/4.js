@@ -3,11 +3,10 @@
 function setusername(username){
     this.username = username
 }
-function create_object(email,password){
+function create_object(username,email,password){
     setusername.call(this,username)
     this.email = email
     this.password = password 
 }
-setusername("AKSH GUPTA")
-let obj1 = new create_object("240108006@hbtu.ac.in","gupta@123")
+let obj1 = new create_object("AKSH GUPTA","240108006@hbtu.ac.in","gupta@123")
 console.log(obj1.username)

@@ -18,7 +18,7 @@ function create_object(username,score){
 }
 // ADDING PROPERTIES BY ACCESSING PROTOTYPE
 create_object.prototype.increment= function(){
-    (this.score)++
+    console.log((this.score)++)
 }
 create_object.prototype.printme = function(){
     console.log(`${this.username} has scored ${this.score}`)
