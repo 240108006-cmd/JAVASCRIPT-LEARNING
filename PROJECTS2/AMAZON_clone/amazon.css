@@ -1,0 +1,724 @@
+*{
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 0%;
+    margin: 0%;
+    border: border-box;
+    
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+}
+.amazonlogo{
+    width: 120px;
+    height: 50px;
+}
+.amazonactuallogo{
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.address{
+    width: 91px;
+    height: 50px;
+}
+.logoandindia{
+    font-weight: bold;
+}
+.actualaddress{
+    padding-top: 10px;
+}
+.outersearchbox{
+    width: 850px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+}
+.drop{
+    background-color: #e6e6e6;
+    color: #0f1111;
+    border-top-left-radius: 12%;
+    border-bottom-left-radius: 12%;
+    height: 50px;
+    width: 45px;
+}
+.typespace{
+    height: 42px;
+    width : 850px;
+    padding-left: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 1.2rem;
+}
+.searchicon{
+    background-color:orange ;
+    width: 45px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-top-right-radius: 12%;
+    border-bottom-right-radius: 12%;
+
+}
+.language{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag{
+    background-image: url(USA.png);
+    background-size: cover;
+    height:25px;
+    width: 35px;
+}
+.en{
+    color: white;
+    background-color: transparent;
+}
+.signin{
+    height:40px ;
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.hello{
+    font-size: 0.8rem;
+
+}
+.loginn{
+    background-color: transparent;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.ordersection{
+    height: 40px;
+    width: 100px;
+    padding-top: 13px;
+    padding-left: 13px;
+}
+.a1{
+    font-size: 0.8rem;
+}
+.a2{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.cart{
+    height: 45px;
+    width: 80px;
+    display: flex;
+    align-items: flex-end;
+
+    
+}
+.cart i{
+    font-size: 1.99rem;
+}
+.greypanel{
+    height: 40px;
+    background-color:rgb(27, 27, 48);
+    display: flex;
+    align-items: center;
+}
+.all{
+    height: 35px;
+    width: 60px ;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.setheight{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgroundimage{
+    background-image: url(amazonbg.png);
+    background-size: cover;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    
+
+}
+#Alll{
+    font-weight: bold;
+    color: white;
+}
+.internaldiv{
+    height: 40px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    position: relative;
+    top: 15px;
+}
+.internaldivcontent{
+    color: #0f1111;
+}
+.internaldivcontent a{
+    color: rgb(5, 60, 82);
+}
+.firstlayer{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(layerrr.png);
+    background-size: cover;
+}
+.l1block{
+    height: 450px;
+    width: 295px;
+    padding-left: 5px;
+    padding-top: 25px;
+    
+    
+}
+.l1block p  {
+    color: #0f1111;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.l1block a  {
+    color: blue;
+    font-size: 0.85rem;
+}
+.L11IMAGE{
+    height: 370px ;
+    width: 270px;
+    background-image: url(L11.png);
+    background-size: cover;
+    
+    margin: 8px 0px 8px 0px;
+}
+.jeanstops{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.dressesshoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.jeans{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(jeans.png);
+    background-size: cover;
+    
+    
+}
+.tops{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(tops.png);
+    background-size: cover;
+    
+}
+.dresses{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(dresses.png);
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+.shoes{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(shoes.png);
+    background-size: cover;
+    margin-top: 50px;
+}
+#uni{
+    margin-bottom: 25px;
+}
+.L12 pre{
+    font-size: 0.85rem;
+}
+.cooker{
+    height: 145px;
+    width: 285px;
+    
+    background-image:url(cooker.png);
+    background-size: cover;
+}
+.coffee{
+    background-image: url(coffee.png);
+    background-size: cover;
+    height:75px;
+    width: 90px;
+    
+}
+.pots{
+    background-image: url(pots.png);
+    background-size: cover;
+    height:75px;
+    width: 90px;
+    
+}.kettles{
+    background-image: url(kettles.png);
+    background-size: cover;
+    height:75px;
+    width: 90px;
+    
+}
+.coffeeetc{
+    display: flex;
+    justify-content: space-evenly;
+    height: 75px;
+    margin-bottom: 4px;
+    
+}
+.L13 pre{
+    font-size: 0.85rem;
+    margin-bottom: 48px;
+}
+
+.pansaprons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.toolsgloves{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pans{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(pans.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+    
+}
+.aprons{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(aprons.png);
+    background-size:cover;
+    
+}
+.tools{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(grillingtools.png);
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+.gloves{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(gloves.png);
+    background-size: cover;
+    margin-top: 50px;
+}
+.L14 pre{
+    font-size: 0.85rem;
+}
+#un{
+    margin-bottom: 18px;
+}
+
+
+
+
+/* layer intialise*/
+.secondlayer{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(layerr.png);
+    background-size: cover;
+}
+.l2block{
+    height: 450px;
+    width: 295px;
+    padding-left: 5px;
+    padding-top: 25px;
+}
+.l2block p  {
+    color: #0f1111;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.l2block a  {
+    color: blue;
+    font-size: 0.85rem;
+}
+/*whole box*/
+.kithome{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.decorbedding{
+    display: flex;
+    justify-content: space-evenly;
+}
+.kit{
+    height: 130px;
+    width: 130px;  
+    background-image: url(kitchen.png);
+    background-size: cover;
+}
+.home{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(homeimprovement.png);
+    background-size: cover;
+    
+}
+.decor{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(decor.png);
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+.bedding{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(bedding.png);
+    background-size: cover;
+    margin-top: 50px;
+}
+.L21 pre{
+    font-size: 0.85rem;
+}
+#decorbedding{
+    margin-bottom: 18px;
+}
+
+/*whole box*/
+.apparelpersonal{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.TechShoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.apparel{
+    height: 130px;
+    width: 130px;  
+    background-image: url(apparel.png);
+    background-size: cover;
+}
+.personalcare{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(personalcare.png);
+    background-size: cover;
+    
+}
+.Tech{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(tech.png);
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+.Shoes{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(ShoesA.png);
+    background-size: cover;
+    margin-top: 50px;
+}
+.L22 pre{
+    font-size: 0.85rem;
+}
+#techShoes{
+    margin-bottom: 18px;
+}
+
+
+/*whole box*/
+.DressesKnits{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.jacketsjewelery{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Dresses{
+    height: 130px;
+    width: 130px;  
+    background-image: url(dressesa.png);
+    background-size: cover;
+}
+.Knits{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(knits.png);
+    background-size: cover;
+    
+}
+.Jackets{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(jackets.png);
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+.Jewelery{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(jewelery.png);
+    background-size: cover;
+    margin-top: 50px;
+}
+.L23 pre{
+    font-size: 0.85rem;
+}
+#jacketsjewelery{
+    margin-bottom: 18px;
+}
+
+/*whole box*/
+.basketshardware{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.accentwallpaper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.basktes{
+    height: 130px;
+    width: 130px;  
+    background-image: url(baskets.png);
+    background-size:cover;
+}
+.hardware{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(hardware.png);
+    background-size: cover;
+    
+}
+.accent{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(accent.png);
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+.wallpaper{
+    height: 130px;
+    width: 130px;
+    
+    background-image: url(wallpaper.png);
+    background-size: cover;
+    margin-top: 50px;
+}
+.L24 pre{
+    font-size: 0.85rem;
+}
+#accentwallpaper{
+    margin-bottom: 18px;
+}
+.back_to_top{
+    height: 50px ;
+    background-color:  #37475a;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footermiddle{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:370px;
+    background-color:#232f3e;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.footermiddleblock{
+    height: 292px;
+    width: 222px;
+
+}
+.footermiddleblock p{
+    font-weight: bold;
+    font-size: 1.25 rem;
+    color: #ffffff;
+}
+.footermiddleblock a{
+    
+    font-size: 0.85 rem;
+    color:#DDDDDD;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.footermiddleblock a:hover{
+    text-decoration: underline;
+}
+.footerend{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 160px;
+    background-color:#232f3e;
+    padding-right :300px;
+    padding-left :300px;
+    
+}
+.amazonfooterlogo{
+    background-image: url(amazon.png);
+    background-size: cover;
+    height: 45px;
+    width: 105px;
+}
+.footerendbox{
+    height: 55px ;
+    width: 500px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footerendboxinternal{
+    height: 50px;
+    width: 140px;
+    border: 2px solid white;
+    display: flex;
+    padding-left: 8px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10%;
+
+}
+.footerendboxinternal i{
+    color: white;
+    margin-right: 7px;
+    margin: 8px;
+}
+.footerendboxinternal select{
+    background: transparent;
+    color: white;
+    border: none;
+    appearance: none;
+}
+.arrows{
+    font-size: 10px;
+    line-height: 10px;
+}
+.footerendboxinternal p{
+    font-size: 0.5 rem;
+    color: white;
+}
+.usa{
+    background-image: url(USA.png);
+    background-size: cover;
+    height: 25px;
+    width: 33px;
+    border: 2px solid white;
+    margin-right: 7px;
+}
+.footerendboxinternal p{
+    font-size: 0.73 rem;
+}
+.copyright{
+    background-color:#131A22;
+    height:100px ;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+.copyright1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    width: 800px ;
+    
+}
+.copyright1internal{
+    height: 30px;
+    
+    color: white;
+    font-size: 0.75 rem;
+    display: flex;
+
+}
+.copyright2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px ;
+    width: 400px ;
+
+}
+.copyright i {
+    color: white;
+}
+#Deliver{
+    font-size: small;
+    color: white;
+}
+.logoandindia i{
+    color: white;
+}
+.logoandindia{
+    color: white;
+}
+.en{
+    border: none;
+}
+.loginn{
+    color: white;
+    border: none;
+}
+
+
