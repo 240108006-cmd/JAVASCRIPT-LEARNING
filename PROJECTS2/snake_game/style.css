@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.scorer{
+    height: 50px;
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.HighScore{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.Score{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.Time{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+body{
+    background: linear-gradient(black);
+    color: white;
+
+}
+.track{
+    border: 2px solid white;
+    height: 720px;
+    width: 1040px;
+    display: grid;
+    grid-template-rows: repeat(9,80px);
+    grid-template-columns: repeat(13,80px);
+}
+.block{
+    border-color: white;
+    border: 2px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newgame{
+    height: 180px;
+    width: 380px;
+    border: 10px solid red;
+    background-color: chocolate;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+    display: none;
+}
+.startgame{
+    
+    height: 180px;
+    width: 380px;
+    border: 10px solid red;
+    background-color: chocolate;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+    display: none;
+
+}
