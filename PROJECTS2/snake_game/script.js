@@ -11,7 +11,7 @@ for (let row = 0; row < totalrows; row++) {
 
         let block = document.createElement("div");
         block.setAttribute("class", "block");
-        block.innerHTML=`(${row},${column})`
+        
         allblocks[`(${row},${column})`] = block;
 
         track.appendChild(block);
